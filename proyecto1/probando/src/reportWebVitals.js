@@ -1,5 +1,5 @@
 
-const stripeApiKey = "1734c6e8-3154-4dda-ba5f-a874cc483422"; 
+const REACT_APP_API_KEY="sk-4f9d8371e08f4e2ab91cc1a8bfa77e21"; 
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
